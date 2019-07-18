@@ -17,6 +17,11 @@ function sin() {
   num.value = Math.sin(num.value);
 }
 
+function cuadrado() {
+  var num = document.getElementById("n1");
+  num.value = Math.pow(num.value, 2);
+}
+
 </script>
 </head>
 <body>
@@ -31,6 +36,9 @@ function sin() {
   </p>
   <p>
   <button onclick="sin()"> sin(x) </button>
+  </p>
+  <p>
+  <button onclick="cuadrado()"> x^2 </button>
   </p>
 </body>
 </html>

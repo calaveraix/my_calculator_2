@@ -12,6 +12,11 @@ function cuartapotencia() {
   num.value = Math.pow(num.value, 4);
 }
 
+function sin() {
+  var num = document.getElementById("n1");
+  num.value = Math.sin(num.value);
+}
+
 </script>
 </head>
 <body>
@@ -23,6 +28,9 @@ function cuartapotencia() {
   </p>
   <p>
   <button onclick="cuartapotencia()"> x^4 </button>
+  </p>
+  <p>
+  <button onclick="sin()"> sin(x) </button>
   </p>
 </body>
 </html>
